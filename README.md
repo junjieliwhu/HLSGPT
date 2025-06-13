@@ -27,7 +27,7 @@ A generative pretrained Transformer for harmonized Landsat and Sentinel-2 reflec
  - YEAR: The year of input time series, e.g., 2023
  - END_DOY: The end doy (day of year) of input time series, e.g., 365 means the input time series is the whole year of 2023，152 means the input time series is 06/01/2022-06/01/2023  
  - PREDICT_DATES: The dates for which the HLS image is generated, e.g., '2023140', If there are multiple dates, separate them with commas.
- - HLS_DATA_DIR: The input HLS data directory.
+ - HLS_DATA_DIR: The input HLS time series directory.
  - hls_transformer_model_path: The pretrained Transformer model path.
  - output_dir: The output directory.
 

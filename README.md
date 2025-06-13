@@ -1,5 +1,6 @@
 # HLSGPT
-A generative pretrained Transformer for harmonized Landsat and Sentinel-2 reflectance data reconstruction
+A generative pretrained Transformer for harmonized Landsat and Sentinel-2 reflectance data reconstruction.
+HLS-GPT aims to provide a ready-to-use, user-friendly pretrained model that requires no additional intervention and enables users to reconstruct full-spectrum NBAR reflectance for any pixel on any date from Landsat and Sentinel-2 time series.
 ## Requirements
 - **Programming Languages**: Python 3.7+
 - **Libraries**:

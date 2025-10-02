@@ -25,13 +25,13 @@ HLS-GPT aims to provide a ready-to-use pretrained model that reconstructs Landsa
 ## Usage
 ```
 python Pro_HLS_GPT_application_v3.py \
-  <tile_id> <reconstructed_dates> <end_date> <hls_data_dir> \
+  <tile_id> <reconstructed_dates> <start_date> <hls_data_dir> \
   <hls_transformer_model_path> <output_dir>
 ```
 ### Arguments
  - tile_id: The HLS tile name, e.g., '14TNP'.
- - reconstructed_dates: The dates for which the HLS image is reconstructed, using year+DOY, e.g., '2023140'. If there are multiple dates, separate them with commas.
- - end_date: Define the tail date of the input time series. The model uses observations from [END_DATE - 365, END_DATE]. e.g., '2023365' means the input time series is the whole year of 2023，'2023152' means the input time series is 06/01/2022-06/01/2023  
+ - reconstructed_dates: The dates for which the HLS image is reconstructed, using year+DOY, e.g., '2023140'. If there are multiple dates, separate them with commas. Note the model only reconstructs reflectance for pixels with no good-quality observations on the reconstruction dates.
+ - start_date: Define the start date of the input annual time series for reconstruction. The model uses observations from [start_date, start_date+365]. e.g., ''2023152' means the input time series is 06/01/2023-06/01/2024  
  - hls_data_dir: The input HLS time series directory.
  - hls_transformer_model_path: The pretrained Transformer model path.
  - output_dir: The output directory.

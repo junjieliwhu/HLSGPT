@@ -24,7 +24,7 @@ HLS-GPT aims to provide a ready-to-use pretrained model that reconstructs Landsa
 -csv file storing the mean and standard deviation values for each band used for normalization
 ## Usage
 ```
-python Pro_HLS_GPT_application_v3.py \
+python Pro_HLS_GPT_application_v4.py \
   <tile_id> <reconstructed_dates> <start_date> <hls_data_dir> \
   <hls_transformer_model_path> <output_dir>
 ```

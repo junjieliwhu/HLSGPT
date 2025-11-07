@@ -1,4 +1,4 @@
-# HLSGPT
+# HLS-GPT
 A generative pretrained Transformer for harmonized Landsat and Sentinel-2 reflectance data reconstruction.  
   
 HLS-GPT aims to provide a ready-to-use pretrained model that reconstructs Landsat and Sentinel-2 observations for any date across the conterminous United States (CONUS) without imposing temporal shape constraints. 

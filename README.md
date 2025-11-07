@@ -37,4 +37,4 @@ python Pro_HLS_GPT_application_v3.py \
  - output_dir: The output directory.
 
 ## Citation
-More details can refer to the paper: Li, J., Zhang, H. K., Roy, D. P., and Qiu, Y. (2025). HLS-GPT: A Generative Pretrained Transformer (GPT) Model for Accurate Harmonized Landsat and Sentinel-2 (HLS) Annual Reflectance Time Series Reconstruction. In review.
+More details can refer to the paper: Li, J., Zhang, H. K., and Roy, D. P. (2025). HLS-GPT: A Generative Pretrained Transformer (GPT) Model for Accurate Harmonized Landsat and Sentinel-2 (HLS) Reflectance Time Series Reconstruction. In review.

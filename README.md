@@ -10,7 +10,7 @@ HLS-GPT aims to provide a ready-to-use pretrained model that reconstructs Landsa
   - `numpy`
   - `rasterio`
 ## Included files
-1. `Pro_HLS_GPT_application_v3.py` 
+1. `Pro_HLS_GPT_application_v4.py` 
 -This is the main script for applying the pretrained HLS model to reconstruct HLS tiles.
 2. `HLS_io_chunks.py` 
 -Class defined for reading HLS tiles.

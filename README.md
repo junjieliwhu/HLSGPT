@@ -3,6 +3,8 @@ A generative pretrained Transformer for harmonized Landsat and Sentinel-2 reflec
   
 HLS-GPT aims to provide a ready-to-use pretrained model that reconstructs Landsat and Sentinel-2 observations for any date across the conterminous United States (CONUS) without imposing temporal shape constraints. 
 
+If try to use HLS-GPT for single pixel time series, pleae use [Pixel-HLS-GPT](https://github.com/junjieliwhu/Pixel-HLS-GPT) 
+
 ## Requirements
 - **Programming Languages**: Python 3.7+
 - **Libraries**:
@@ -38,3 +40,4 @@ python Pro_HLS_GPT_application_v4.py \
 
 ## Citation
 More details can refer to the paper: Li, J., Zhang, H. K., and Roy, D. P. (2025). HLS-GPT: A Generative Pretrained Transformer (GPT) Model for Accurate Harmonized Landsat and Sentinel-2 (HLS) Reflectance Time Series Reconstruction. In review.
+
